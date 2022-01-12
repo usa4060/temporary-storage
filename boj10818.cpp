@@ -5,6 +5,8 @@ int main() {
     int num, count, min = 1000001, max = -1000001;
     cin >> count;
 
+
+
     while (cin >> num) {
         max = num > max ? num : max;
         min = num < min ? num : min;
